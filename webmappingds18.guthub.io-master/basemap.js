@@ -65,6 +65,9 @@ myMap.setView([47.267,11,383], 11); //http://leafletjs.com/reference-1.3.0.html#
 
 L.control.scale({
     position: 'bottomleft',
+    maxWidth :200,
+    imperial : false,
+    metric : true,
 }
 ).addTo(myMap); //http://leafletjs.com/reference-1.3.0.html#control-scale-l-control-scale
 
